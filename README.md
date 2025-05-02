@@ -4,7 +4,7 @@ This repository provides Wazuh decoders for Mikrotik and a script for monitoring
 
 **Tested on:**
 - RouterOS 7.15.1
-- Wazuh 4.8.0
+- Wazuh 4.8.2
 
 ## 🚀 Setup Instructions
 

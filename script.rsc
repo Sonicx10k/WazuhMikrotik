@@ -56,6 +56,7 @@ add dont-require-permissions=no name=WGPeerStatus owner=admin policy=\
     \n:set \$OfflinePeerList \$OfflinePeerListTmp\r\
     \n:set \$OnlinePeerList \$OnlinePeerListTmp"
 
+
 /system scheduler
 add interval=30s name=WGPeerCheck on-event="/system script run WGPeerStatus;" \
     policy=ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon
